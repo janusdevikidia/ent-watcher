@@ -5,7 +5,10 @@ Extension Chrome qui vérifie automatiquement toutes les 5 minutes si l'espace �
 Contrairement à la version Pronote, cette variante gère tout le parcours de connexion (choix du profil "Élève", validation, etc.) en ouvrant un onglet en arrière-plan, car Skolengo vous déconnecte toute les 15 minutes.
 > [!IMPORTANT]
 > Cette branche est adaptée aux ENT **Skolengo** (Éclat BFC par exemple)
-> Si votre ENT utilise Pronote, merci d'utiliser la branche [`skolengo`](https://github.com/janusdevikidia/ent-watcher/tree/main)
+> Si votre ENT utilise Pronote, merci d'utiliser la branche [`main`](https://github.com/janusdevikidia/ent-watcher/tree/main).
+
+> [!NOTE]
+> L'extension n'a pas encore de branche adapté aux ENT École Directe. Vous pouvez essayer avec la branche [`main`](https://github.com/janusdevikidia/ent-watcher/tree/main), mais ce n'est pas sur que cela marche.
 
 ## Prérequis
 
