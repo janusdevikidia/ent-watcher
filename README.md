@@ -55,3 +55,6 @@ Si l'extension rencontre un écran inattendu pendant le parcours de connexion (s
 - Le mode "Arrêter pour aujourd'hui" (dans le popup) suspend temporairement les vérifications jusqu'au lendemain.
 - Vos réglages sont stockés localement dans le navigateur (aucune donnée envoyée à un serveur tiers, hormis ntfy si configuré).
 - L'extension nécessite les permissions `scripting` et `tabs` pour automatiser la navigation dans l'onglet caché.
+
+> [!WARNING]
+> Si vous avez un problème avec l'extension, nous vous invitons à ouvrir une issue pour que nous puissions analyser le bug et le corriger !
