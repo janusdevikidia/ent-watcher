@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>ENT Watcher (Skolengo/Éclat)</title>
+<style>
+  body {
+    width: 300px;
+    font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+    padding: 16px;
+    background: #f8fafc;
+    color: #0f172a;
+  }
+  h1 {
+    font-size: 15px;
+    margin: 0 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .status-box {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 13px;
+  }
+  .row { display: flex; justify-content: space-between; margin-bottom: 6px; }
+  .row:last-child { margin-bottom: 0; }
+  .label { color: #64748b; }
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .badge.found { background: #dcfce7; color: #166534; }
+  .badge.not_found { background: #f1f5f9; color: #475569; }
+  .badge.error { background: #fee2e2; color: #991b1b; }
+  .badge.anomaly { background: #fef3c7; color: #92400e; }
+  .badge.unknown { background: #f1f5f9; color: #64748b; }
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 8px;
+  }
+  #checkNowBtn { background: #2563eb; color: white; }
+  #checkNowBtn:hover { background: #1d4ed8; }
+  #stopBtn { background: #fee2e2; color: #991b1b; }
+  #stopBtn.active { background: #dcfce7; color: #166534; }
+  #optionsBtn { background: transparent; color: #64748b; text-decoration: underline; }
+</style>
+</head>
+<body>
+  <h1>🎓 ENT Watcher — Skolengo</h1>
+
+  <div class="status-box">
+    <div class="row">
+      <span class="label">Statut</span>
+      <span id="statusBadge" class="badge unknown">—</span>
+    </div>
+    <div class="row">
+      <span class="label">Dernière vérification</span>
+      <span id="lastCheck">jamais</span>
+    </div>
+    <div id="errorRow" class="row" style="display:none;">
+      <span class="label">Détail</span>
+      <span id="errorMsg" style="color:#991b1b; text-align:right;"></span>
+    </div>
+  </div>
+
+  <div class="status-box">
+    <div class="row">
+      <span class="label">Alarme active</span>
+      <span id="alarmStatus">—</span>
+    </div>
+    <div class="row">
+      <span class="label">Prochaine vérification</span>
+      <span id="nextCheck">—</span>
+    </div>
+  </div>
+
+  <button id="checkNowBtn">Vérifier maintenant</button>
+  <button id="stopBtn">Arrêter pour aujourd'hui</button>
+  <button id="optionsBtn">⚙ Réglages</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "ENT Watcher - Alerte Espace Élève (Skolengo/Éclat)",
+  "version": "1.0.0",
+  "description": "Se connecte automatiquement via le portail CAS Éclat (Skolengo) et vérifie si l'espace élève est disponible, puis envoie une notification via ntfy.",
+  "permissions": ["storage", "alarms", "notifications", "scripting", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "ENT Watcher (Éclat)"
+  },
+  "options_page": "options.html",
+  "icons": {
+    "128": "icon.png"
+  }
+}
