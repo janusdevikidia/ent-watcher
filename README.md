@@ -5,6 +5,9 @@ Extension Chrome qui vérifie automatiquement toutes les 5 minutes si l'espace �
 > Cette branche est adaptée aux ENT **Pronote**
 > Si votre ENT utilise Skolengo (Éclat BFC par exemple), merci d'utiliser la branche [`skolengo`](https://github.com/janusdevikidia/ent-watcher/tree/skolengo).
 
+> [!NOTE]
+> L'extension n'a pas encore de branche adapté aux ENT École Directe. Vous pouvez essayer avec la branche main, mais ce n'est pas sur que cela marche.
+
 ## Installation
 
 1. **Télécharger le projet**
