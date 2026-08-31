@@ -1,6 +1,9 @@
-# ENT Watcher
+# ENT Watcher (Pronote)
 
 Extension Chrome qui vérifie automatiquement toutes les 5 minutes si l'espace élève est disponible sur votre ENT, et vous envoie une notification (Chrome + [ntfy](https://ntfy.sh)) dès que c'est le cas.
+> [!IMPORTANT]
+> Cette branche est adaptée aux ENT **Pronote**
+> Si votre ENT utilise Skolengo (Éclat BFC par exemple), merci d'utiliser la branche [`skolengo`](https://github.com/janusdevikidia/ent-watcher/tree/skolengo).
 
 ## Installation
 
