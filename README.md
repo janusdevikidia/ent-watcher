@@ -43,3 +43,6 @@ Pour recevoir les alertes sur votre téléphone :
 
 - Le mode "Arrêter pour aujourd'hui" (dans le popup) suspend temporairement les vérifications jusqu'au lendemain.
 - Vos réglages sont stockés localement dans le navigateur (aucune donnée envoyée à un serveur tiers, hormis ntfy si configuré).
+
+> [!WARNING]
+> Si vous avez un problème avec l'extension, nous vous invitons à ouvrir une issue pour que nous puissions analyser le bug et le corriger !
