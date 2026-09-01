@@ -3,6 +3,10 @@
 Extension Chrome qui vérifie automatiquement toutes les 5 minutes si l'espace élève est disponible sur votre ENT, et vous envoie une notification (Chrome + [ntfy](https://ntfy.sh)) dès que c'est le cas.
 
 Contrairement à la version Pronote, cette variante gère tout le parcours de connexion (choix du profil "Élève", validation, etc.) en ouvrant un onglet en arrière-plan, car Skolengo vous déconnecte toute les 15 minutes.
+
+>[!WARNING>
+>Il peut y avoir des problèmes, étant donné que le service éduconnect est surchargé !
+
 > [!IMPORTANT]
 > Cette branche est adaptée aux ENT **Skolengo** (Éclat BFC par exemple)
 > Si votre ENT utilise Pronote, merci d'utiliser la branche [`main`](https://github.com/janusdevikidia/ent-watcher/tree/main).
