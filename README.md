@@ -4,7 +4,7 @@ Extension Chrome qui vérifie automatiquement toutes les 5 minutes si l'espace �
 
 Contrairement à la version Pronote, cette variante gère tout le parcours de connexion (choix du profil "Élève", validation, etc.) en ouvrant un onglet en arrière-plan, car Skolengo vous déconnecte toute les 15 minutes.
 
->[!WARNING>
+>[!WARNING]
 >Il peut y avoir des problèmes, étant donné que le service éduconnect est surchargé !
 
 > [!IMPORTANT]
